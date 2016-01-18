@@ -7,6 +7,7 @@
 //
 
 #import "VTEViewController.h"
+#import "VTECircleView.h"
 
 @interface VTEViewController ()
 
@@ -14,14 +15,14 @@
 
 @implementation VTEViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+#pragma mark - UIView methods
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)loadView {
+    VTECircleView *circlesView = [VTECircleView new];
+    
+    circlesView.backgroundColor = [UIColor whiteColor];
+    
+    self.view = circlesView;
 }
 
 @end

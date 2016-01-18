@@ -14,6 +14,7 @@
 		5307BA6C1C4D697B0026910C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5307BA6B1C4D697B0026910C /* Assets.xcassets */; };
 		5307BA6F1C4D697B0026910C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307BA6D1C4D697B0026910C /* LaunchScreen.storyboard */; };
 		5307BA7A1C4D697B0026910C /* ViewTouchEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA791C4D697B0026910C /* ViewTouchEventTests.m */; };
+		5307BA8E1C4D6CC90026910C /* VTECircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA8D1C4D6CC90026910C /* VTECircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5307BA751C4D697B0026910C /* ViewTouchEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewTouchEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5307BA791C4D697B0026910C /* ViewTouchEventTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTouchEventTests.m; sourceTree = "<group>"; };
 		5307BA7B1C4D697B0026910C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307BA8C1C4D6CC90026910C /* VTECircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTECircleView.h; sourceTree = "<group>"; };
+		5307BA8D1C4D6CC90026910C /* VTECircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTECircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		5307BA5E1C4D697B0026910C /* ViewTouchEvent */ = {
 			isa = PBXGroup;
 			children = (
+				5307BA8B1C4D6C770026910C /* Views */,
 				5307BA851C4D69C70026910C /* Commons */,
 				5307BA841C4D69B00026910C /* Controllers */,
 				5307BA5F1C4D697B0026910C /* Supporting Files */,
@@ -125,6 +129,15 @@
 				5307BA631C4D697B0026910C /* VTEAppDelegate.m */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		5307BA8B1C4D6C770026910C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5307BA8C1C4D6CC90026910C /* VTECircleView.h */,
+				5307BA8D1C4D6CC90026910C /* VTECircleView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +245,7 @@
 			files = (
 				5307BA671C4D697B0026910C /* VTEViewController.m in Sources */,
 				5307BA641C4D697B0026910C /* VTEAppDelegate.m in Sources */,
+				5307BA8E1C4D6CC90026910C /* VTECircleView.m in Sources */,
 				5307BA611C4D697B0026910C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
