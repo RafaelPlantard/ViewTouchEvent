@@ -81,10 +81,10 @@
 		5307BA5E1C4D697B0026910C /* ViewTouchEvent */ = {
 			isa = PBXGroup;
 			children = (
+				5307BA681C4D697B0026910C /* Main.storyboard */,
 				5307BA851C4D69C70026910C /* Commons */,
 				5307BA841C4D69B00026910C /* Controllers */,
 				5307BA5F1C4D697B0026910C /* Supporting Files */,
-				5307BA861C4D69D60026910C /* Views */,
 				5307BA6B1C4D697B0026910C /* Assets.xcassets */,
 				5307BA701C4D697B0026910C /* Info.plist */,
 				5307BA6D1C4D697B0026910C /* LaunchScreen.storyboard */,
@@ -125,14 +125,6 @@
 				5307BA631C4D697B0026910C /* VTEAppDelegate.m */,
 			);
 			path = Commons;
-			sourceTree = "<group>";
-		};
-		5307BA861C4D69D60026910C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				5307BA681C4D697B0026910C /* Main.storyboard */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +261,7 @@
 				5307BA691C4D697B0026910C /* Base */,
 			);
 			name = Main.storyboard;
-			path = .;
+			path = Views/.;
 			sourceTree = "<group>";
 		};
 		5307BA6D1C4D697B0026910C /* LaunchScreen.storyboard */ = {
