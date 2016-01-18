@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+/*! @brief The view controller for the home view. */
+@interface VTEViewController : UIViewController
 
 @end
-

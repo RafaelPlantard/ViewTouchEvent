@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5307BA611C4D697B0026910C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA601C4D697B0026910C /* main.m */; };
-		5307BA641C4D697B0026910C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA631C4D697B0026910C /* AppDelegate.m */; };
-		5307BA671C4D697B0026910C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA661C4D697B0026910C /* ViewController.m */; };
+		5307BA641C4D697B0026910C /* VTEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA631C4D697B0026910C /* VTEAppDelegate.m */; };
+		5307BA671C4D697B0026910C /* VTEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA661C4D697B0026910C /* VTEViewController.m */; };
 		5307BA6A1C4D697B0026910C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307BA681C4D697B0026910C /* Main.storyboard */; };
 		5307BA6C1C4D697B0026910C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5307BA6B1C4D697B0026910C /* Assets.xcassets */; };
 		5307BA6F1C4D697B0026910C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307BA6D1C4D697B0026910C /* LaunchScreen.storyboard */; };
@@ -29,10 +29,10 @@
 /* Begin PBXFileReference section */
 		5307BA5C1C4D697B0026910C /* ViewTouchEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTouchEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5307BA601C4D697B0026910C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5307BA621C4D697B0026910C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5307BA631C4D697B0026910C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5307BA651C4D697B0026910C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5307BA661C4D697B0026910C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5307BA621C4D697B0026910C /* VTEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTEAppDelegate.h; sourceTree = "<group>"; };
+		5307BA631C4D697B0026910C /* VTEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTEAppDelegate.m; sourceTree = "<group>"; };
+		5307BA651C4D697B0026910C /* VTEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTEViewController.h; sourceTree = "<group>"; };
+		5307BA661C4D697B0026910C /* VTEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTEViewController.m; sourceTree = "<group>"; };
 		5307BA691C4D697B0026910C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5307BA6B1C4D697B0026910C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5307BA6E1C4D697B0026910C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,11 +81,9 @@
 		5307BA5E1C4D697B0026910C /* ViewTouchEvent */ = {
 			isa = PBXGroup;
 			children = (
-				5307BA621C4D697B0026910C /* AppDelegate.h */,
-				5307BA631C4D697B0026910C /* AppDelegate.m */,
-				5307BA651C4D697B0026910C /* ViewController.h */,
-				5307BA661C4D697B0026910C /* ViewController.m */,
-				5307BA681C4D697B0026910C /* Main.storyboard */,
+				5307BA861C4D69D60026910C /* Views */,
+				5307BA851C4D69C70026910C /* Commons */,
+				5307BA841C4D69B00026910C /* Controllers */,
 				5307BA6B1C4D697B0026910C /* Assets.xcassets */,
 				5307BA6D1C4D697B0026910C /* LaunchScreen.storyboard */,
 				5307BA701C4D697B0026910C /* Info.plist */,
@@ -109,6 +107,32 @@
 				5307BA7B1C4D697B0026910C /* Info.plist */,
 			);
 			path = ViewTouchEventTests;
+			sourceTree = "<group>";
+		};
+		5307BA841C4D69B00026910C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5307BA651C4D697B0026910C /* VTEViewController.h */,
+				5307BA661C4D697B0026910C /* VTEViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5307BA851C4D69C70026910C /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				5307BA621C4D697B0026910C /* VTEAppDelegate.h */,
+				5307BA631C4D697B0026910C /* VTEAppDelegate.m */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		5307BA861C4D69D60026910C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5307BA681C4D697B0026910C /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +179,7 @@
 		5307BA541C4D697B0026910C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VTE;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Data Empire";
 				TargetAttributes = {
@@ -213,8 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5307BA671C4D697B0026910C /* ViewController.m in Sources */,
-				5307BA641C4D697B0026910C /* AppDelegate.m in Sources */,
+				5307BA671C4D697B0026910C /* VTEViewController.m in Sources */,
+				5307BA641C4D697B0026910C /* VTEAppDelegate.m in Sources */,
 				5307BA611C4D697B0026910C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,14 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "VTEAppDelegate.h"
 
-@interface AppDelegate ()
+@interface VTEAppDelegate ()
 
 @end
 
-@implementation AppDelegate
-
+@implementation VTEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

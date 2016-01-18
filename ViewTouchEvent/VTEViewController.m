@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "VTEViewController.h"
 
-@interface ViewController ()
+@interface VTEViewController ()
 
 @end
 
-@implementation ViewController
+@implementation VTEViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
