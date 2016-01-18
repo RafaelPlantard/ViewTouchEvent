@@ -63,9 +63,9 @@
 		5307BA531C4D697B0026910C = {
 			isa = PBXGroup;
 			children = (
+				5307BA5D1C4D697B0026910C /* Products */,
 				5307BA5E1C4D697B0026910C /* ViewTouchEvent */,
 				5307BA781C4D697B0026910C /* ViewTouchEventTests */,
-				5307BA5D1C4D697B0026910C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +81,13 @@
 		5307BA5E1C4D697B0026910C /* ViewTouchEvent */ = {
 			isa = PBXGroup;
 			children = (
-				5307BA861C4D69D60026910C /* Views */,
 				5307BA851C4D69C70026910C /* Commons */,
 				5307BA841C4D69B00026910C /* Controllers */,
-				5307BA6B1C4D697B0026910C /* Assets.xcassets */,
-				5307BA6D1C4D697B0026910C /* LaunchScreen.storyboard */,
-				5307BA701C4D697B0026910C /* Info.plist */,
 				5307BA5F1C4D697B0026910C /* Supporting Files */,
+				5307BA861C4D69D60026910C /* Views */,
+				5307BA6B1C4D697B0026910C /* Assets.xcassets */,
+				5307BA701C4D697B0026910C /* Info.plist */,
+				5307BA6D1C4D697B0026910C /* LaunchScreen.storyboard */,
 			);
 			path = ViewTouchEvent;
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 			children = (
 				5307BA601C4D697B0026910C /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5307BA781C4D697B0026910C /* ViewTouchEventTests */ = {
 			isa = PBXGroup;
 			children = (
-				5307BA791C4D697B0026910C /* ViewTouchEventTests.m */,
 				5307BA7B1C4D697B0026910C /* Info.plist */,
+				5307BA791C4D697B0026910C /* ViewTouchEventTests.m */,
 			);
 			path = ViewTouchEventTests;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 				5307BA651C4D697B0026910C /* VTEViewController.h */,
 				5307BA661C4D697B0026910C /* VTEViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		5307BA851C4D69C70026910C /* Commons */ = {
@@ -124,7 +124,7 @@
 				5307BA621C4D697B0026910C /* VTEAppDelegate.h */,
 				5307BA631C4D697B0026910C /* VTEAppDelegate.m */,
 			);
-			name = Commons;
+			path = Commons;
 			sourceTree = "<group>";
 		};
 		5307BA861C4D69D60026910C /* Views */ = {
@@ -132,7 +132,7 @@
 			children = (
 				5307BA681C4D697B0026910C /* Main.storyboard */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +269,7 @@
 				5307BA691C4D697B0026910C /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		5307BA6D1C4D697B0026910C /* LaunchScreen.storyboard */ = {
@@ -277,6 +278,7 @@
 				5307BA6E1C4D697B0026910C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -429,6 +431,7 @@
 				5307BA801C4D697B0026910C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5307BA811C4D697B0026910C /* Build configuration list for PBXNativeTarget "ViewTouchEventTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +440,7 @@
 				5307BA831C4D697B0026910C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
